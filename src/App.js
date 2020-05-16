@@ -11,7 +11,7 @@ function App() {
   //State de paginador 
 
   const [paginaactual, guardarPaginaActual]= useState(1);
-  const [totalpaginas, guardarTotalPaginas] = useState(5);
+  const [totalpaginas, guardarTotalPaginas] = useState(1);
 
   useEffect(()=>{
     const consultarApi = async () =>{
